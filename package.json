@@ -1,7 +1,10 @@
 {
   "name": "@ecom-lib/analytics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "jsnext:main": "lib/index.esm.js",
+  "browser": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
